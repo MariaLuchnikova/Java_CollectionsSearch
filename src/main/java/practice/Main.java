@@ -1,6 +1,7 @@
 package practice;
 
 public class Main {
+    public static final int CONST = 1;
     /*
     TODO:
      - реализовать методы класса CoolNumbers
