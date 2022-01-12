@@ -43,9 +43,11 @@ public class CoolNumbers {
     }
 
     public static boolean binarySearchInList(List<String> sortedList, String number) {
-        if (Collections.binarySearch(sortedList, number) >= 0)
+        if (Collections.binarySearch(sortedList, number) >= 0) {
             return true;
-        else return false;
+        } else {
+            return false;
+        }
     }
 
     public static void timeBinarySearchInList(String number) {
